@@ -440,29 +440,3 @@ def run_inference_and_evaluate_3D(
             writer.write(output_path, verbose=True)
                         
         return df_eval
-
-
-        # obselete code
-            
-            # Calculate Dice on the raw output
-            # dice(y_pred=one_hot(argmax(y_pred_i))[None], y=one_hot(y_i)[None])
-            # dice_value = dice.aggregate().item()
-            # dice_list.append(dice_value)
-
-            # dice debug
-            # y_pred_i is of 2x512x512 which works for argmax and one-hot
-            # dice is calling ignore_background which assume BxCxHxW
-            # [y_pred_bg, y_bg] = monai.metrics.utils.ignore_background(y_pred=one_hot(argmax(y_pred_i)), y=one_hot(y_i))
-            # print('before ignore bg:', one_hot(argmax(y_pred_i)).shape)
-            # print('after ignore bg:', y_pred_bg.shape)
-            
-            # Calculate Dice after post-processing
-            # dice(y_pred=one_hot(keep(argmax(y_pred_i)))[None], y=one_hot(y_i)[None])
-            # dice_value = dice.aggregate().item()
-            # post_dice_list.append(dice_value)
-
-            # Calculate AUC after post-processing
-            # y_pred_auc = torch.softmax(torch.transpose(torch.flatten(keep(y_pred_i),start_dim=1),1,0),dim=1)
-            # y_auc = torch.transpose(torch.flatten(one_hot(y_i),start_dim=1),1,0)
-            # auc_value = roc_auc_score(y_true=y_auc, y_score=y_pred_auc)
-            # post_auc_list.append(auc_value)
