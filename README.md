@@ -1,4 +1,4 @@
-# SRE-Conv: Symmetric Rotation Equivariant Convolution for Biomedical Image Classification
+# Improved Vessel Segmentation with Symmetric Rotation-Equivariant U-Net
 
 [![PyPI version](https://img.shields.io/pypi/v/SRE-Conv.svg)](https://pypi.org/project/SRE-Conv/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
