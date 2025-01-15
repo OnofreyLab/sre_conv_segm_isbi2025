@@ -1,8 +1,6 @@
-# Improved Vessel Segmentation with Symmetric Rotation-Equivariant U-Net
+# Improved Vessel Segmentation with Symmetric Rotation-Equivariant U-Net - ISBI 2025
 
 [![PyPI version](https://img.shields.io/pypi/v/SRE-Conv.svg)](https://pypi.org/project/SRE-Conv/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-
-This is the implementation of the paper "Improved Vessel Segmentation with Symmetric Rotation-Equivariant U-Net" (accepted by **ISBI 2025**)
 
 *Jiazhen Zhang, Yuexi Du, Nicha C. Dvornek, John A. Onofrey*
 
