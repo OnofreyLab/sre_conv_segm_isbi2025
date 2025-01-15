@@ -15,8 +15,7 @@ This is the implementation of the paper "Improved Vessel Segmentation with Symme
 
 ## Installation of [SRE-Conv](https://github.com/XYPB/SRE-Conv)
 
-Please see details at: [SRE-Conv](https://github.com/XYPB/SRE-Conv).
-
+## SRE-Conv Segmentation
 
 ## Reference
 
