@@ -17,5 +17,10 @@ To install the SRE-Conv, please refer to [SRE-Conv](https://github.com/XYPB/SRE-
 To perform the SRE-Conv Segmentation, please refer to `./src/segm_lightning_retina_SRE_Conv.ipynb`.
 
 ## Reference
+    @article{zhang2025improved,
+      title={Improved Vessel Segmentation with Symmetric Rotation-Equivariant U-Net},
+      author={Zhang, Jiazhen and Du, Yuexi and Dvornek, Nicha C and Onofrey, John A},
+      journal={arXiv preprint arXiv:2501.14592},
+      year={2025}
+    }
 
-*We will update this soon...*
